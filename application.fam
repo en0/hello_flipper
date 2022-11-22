@@ -1,0 +1,9 @@
+App(
+    appid="hello",
+    name="Hello",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hello_app",
+    cdefines=["APP_HELLO"],
+    requires=["gui"],
+)
+
